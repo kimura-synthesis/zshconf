@@ -28,7 +28,7 @@ setopt hist_reduce_blanks  # 余分なスペースを除去してヒストリを
 autoload -Uz colors
 colors
 
-PROMPT="%{$fg_bold[blue]%}%m$ %{$reset_color%}"
+PROMPT="%{$fg_bold[cyan]%}%m$ %{$reset_color%}"
 RPROMPT="%{$fg_bold[white]%}[%{$reset_color%}%{$fg[cyan]%}%~%{$reset_color%}\
 %{$fg_bold[white]%}]%{$reset_color%}"
 
